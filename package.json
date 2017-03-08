@@ -6,6 +6,10 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/oshimayoan/react-fetch-loading"
+  },
   "scripts": {
     "build": "babel src --ignore \"_*\" --out-dir lib",
     "lint": "eslint . --max-warnings 0",
@@ -51,6 +55,6 @@
     "hoc-loading",
     "react-loading"
   ],
-  "author": "broerjuang & oshimayoan",
+  "author": "broerjuang (https://github.com/broerjuang/) & oshimayoan (https://github.com/oshimayoan/)",
   "license": "ISC"
 }
