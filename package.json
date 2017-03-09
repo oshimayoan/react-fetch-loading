@@ -1,14 +1,14 @@
 {
   "name": "react-fetch-loading",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A simple loading component using HOC for fetching data from server.",
   "main": "lib/main.js",
   "files": [
     "lib"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/oshimayoan/react-fetch-loading"
+    "type": "git",
+    "url": "https://github.com/oshimayoan/react-fetch-loading"
   },
   "scripts": {
     "build": "babel src --ignore \"_*\" --out-dir lib",

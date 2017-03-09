@@ -3,15 +3,15 @@
 import React from 'react';
 import CircularProgress from 'material-ui/CircularProgress';
 
-const LoadingHOC = (fetchingPropKey: string) => <T>(ComposedComponent: ReactClass<T>): ReactClass<{}> => {
-  function Loading(props: {[key: string]: boolean}) {
+const loadingInjector = (fetchingPropKey: string) => <T>(ComposedComponent: ReactClass<T>): ReactClass<{}> => {
+  function WrapperComponent(props: {[key: string]: boolean}) {
     return (
       (props[fetchingPropKey]) ?
         <div style={{display: 'block', textAlign: 'center'}}><CircularProgress /></div> :
         <ComposedComponent {...props} />
     );
   }
-  return Loading;
+  return WrapperComponent;
 };
 
-export default LoadingHOC;
+export default loadingInjector;
