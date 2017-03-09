@@ -21,10 +21,8 @@
     "class-autobind": "^0.1.4",
     "classnames": "^2.2.5",
     "enzyme-to-json": "^1.5.0",
-    "material-ui": "^0.17.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-tap-event-plugin": "^2.0.1"
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
