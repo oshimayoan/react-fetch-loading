@@ -32,7 +32,7 @@ let EnhancedComponent = compose(
 or if you want to use stand-alone loadingInjector, you can simply wrap your presentational/stateless component using loadingInjector.
 
 ```js
-let EnhacedComponent = loadingInjector(ComponentThatNeedsLoadingIndicator);
+let EnhacedComponent = loadingInjector('isFetching')(ComponentThatNeedsLoadingIndicator);
 ```
 
 ### Using react-redux:
