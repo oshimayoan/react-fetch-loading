@@ -4,7 +4,7 @@ import React from 'react';
 import CircularProgress from 'material-ui/CircularProgress';
 
 const loadingInjector = (fetchingPropKey: string) => <T>(ComposedComponent: ReactClass<T>): ReactClass<{}> => {
-  function WrapperComponent(props: {[key: string]: boolean}) {
+  function WrapperComponent(props: Object) {
     return (
       (props[fetchingPropKey]) ?
         <div style={{display: 'block', textAlign: 'center'}}><CircularProgress /></div> :
