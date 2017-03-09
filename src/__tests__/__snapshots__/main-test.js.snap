@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadingInjector should return loading component 1`] = `
+<MuiThemeProvider>
+  <div
+    style={
+      Object {
+        "display": "block",
+        "textAlign": "center",
+      }
+    }
+  >
+    <CircularProgress
+      max={100}
+      min={0}
+      mode="indeterminate"
+      size={40}
+      thickness={3.5}
+      value={0}
+    />
+  </div>
+</MuiThemeProvider>
+`;
+
+exports[`loadingInjector should return wrapped component 1`] = `
+<Component
+  isFetching={false}
+/>
+`;
