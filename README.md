@@ -49,4 +49,4 @@ export default EnhancedComponent;
 
 Currently, we only have one indicator to show. Which is coming from material-ui circular progress. We'll provide more loading indicator soon!
 
-![](https://raw.githubusercontent.com/oshimayoan/react-fetch-loading/updatingReadme/circular.gif)
+![](https://raw.githubusercontent.com/oshimayoan/react-fetch-loading/master/circular.gif)
