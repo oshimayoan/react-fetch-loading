@@ -4,8 +4,7 @@
   "description": "A simple loading component using HOC for fetching data from server.",
   "main": "lib/main.js",
   "files": [
-    "lib",
-    "assets"
+    "lib"
   ],
   "repository": {
     "type": "git",
@@ -23,7 +22,8 @@
     "classnames": "^2.2.5",
     "enzyme-to-json": "^1.5.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-loading-indicator": "^1.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
