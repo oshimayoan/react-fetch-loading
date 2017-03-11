@@ -9,8 +9,21 @@ exports[`loadingInjector should return loading component 1`] = `
     }
   }
 >
-  <img
-    src="../assets/ring.svg"
+  <LoadingIndicator
+    color={
+      Object {
+        "alpha": 0.3843137254901961,
+        "blue": 0,
+        "green": 0,
+        "red": 0,
+      }
+    }
+    fadeSteps={6}
+    fadeTo={0.3163265306122449}
+    segmentLength={10}
+    segmentWidth={5}
+    segments={10}
+    spacing={2}
   />
 </div>
 `;
