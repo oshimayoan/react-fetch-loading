@@ -1,6 +1,6 @@
 {
   "name": "react-fetch-loading",
-  "version": "0.2.0-beta.2",
+  "version": "0.2.0-rc1",
   "description": "A simple loading component using HOC for fetching data from server.",
   "main": "lib/main.js",
   "files": [
