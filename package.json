@@ -4,7 +4,8 @@
   "description": "A simple loading component using HOC for fetching data from server.",
   "main": "lib/main.js",
   "files": [
-    "lib"
+    "lib",
+    "assets"
   ],
   "repository": {
     "type": "git",
